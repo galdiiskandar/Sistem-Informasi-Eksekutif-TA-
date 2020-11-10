@@ -1,0 +1,65 @@
+DB::table('maintenance_costs')->insert([
+            [
+                'user_id' => '4',
+                'date_maintenance' => '2019-05-01',
+                'room_inventory_id' => 'IN101001',
+                'cost' => '100000',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'user_id' => '4',
+                'date_maintenance' => '2019-01-11',
+                'room_inventory_id' => 'IN101002',
+                'cost' => '125000',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'user_id' => '4',
+                'date_maintenance' => '2019-05-01',
+                'room_inventory_id' => 'IN101003',
+                'cost' => '1287000',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'user_id' => '5',
+                'date_maintenance' => '2019-09-26',
+                'room_inventory_id' => 'IN102001',
+                'cost' => '70300',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'user_id' => '5',
+                'date_maintenance' => '2019-03-28',
+                'room_inventory_id' => 'IN102001',
+                'cost' => '500000',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'user_id' => '5',
+                'date_maintenance' => '2019-12-01',
+                'room_inventory_id' => 'IN102003',
+                'cost' => '100300',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ],
+            [
+                'user_id' => '6',
+                'date_maintenance' => '2019-04-18',
+                'room_inventory_id' => 'IN103001',
+                'cost' => '900000',
+                'information' => '-',
+                'created_at' => \Carbon\Carbon::now(),
+                'updated_at' => \Carbon\Carbon::now()
+            ]
+        ]);

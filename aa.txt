@@ -1,0 +1,1 @@
+SELECT m.room_inventory_id, sum(m.cost), r.code_inventory, rm.room_number FROM `maintenance_costs` as m inner join room_inventories as r on m.room_inventory_id = r.code_inventory inner join rooms as rm on r.room_id = rm.id group by rm.room_number

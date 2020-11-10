@@ -1,0 +1,8 @@
+
+  $('input[name="edit_purchase_date"]').click(function(e) {
+    e.preventDefault();
+  });
+
+@if(Auth::user()->role == 1)
+    $("#example1_filter").append(addButton);
+    @endif 
